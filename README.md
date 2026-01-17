@@ -1,2 +1,1 @@
-# VICE
-
+# Vanilla Ice Cream Engine (VICE)  
