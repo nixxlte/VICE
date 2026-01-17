@@ -10,6 +10,6 @@ Begin
     pixel(5, 5, 1, 1);	
     pixel(7, 5, 3, 2);		
 
-    result := key("a");		
+    result := key('a');		
     write(result);															
 End.
