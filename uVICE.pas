@@ -70,4 +70,6 @@ procedure start();
 begin
 end;
 
+{ ill probably start using a delphi console project from now, cause this can be easier =3 }
+
 end.
