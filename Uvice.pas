@@ -1,0 +1,12 @@
+unit Uvice;
+
+interface
+  procedure pixel();
+
+implementation
+  procedure pixel();
+  begin
+
+  end;
+
+end.

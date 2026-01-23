@@ -5,8 +5,7 @@ program VICE;
 {$R *.res}
 
 uses
-  System.SysUtils,
-  Uvice in 'Uvice.pas';
+  System.SysUtils;
 
 begin
   try

@@ -1,0 +1,8 @@
+unit Uvice;
+
+interface
+  uses
+    crt;
+implementation
+
+end.
