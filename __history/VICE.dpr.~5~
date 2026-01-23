@@ -6,7 +6,7 @@ program VICE;
 
 uses
   System.SysUtils,
-  vicelib in 'vicelib.pas';
+  Uvice in 'Uvice.pas';
 
 begin
   try
