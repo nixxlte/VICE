@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2026/01/22 17:32:16.659,C:\Users\NyanRay\Documents\GitHub\VICE\VICE.dproj=C:\Users\NyanRay\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2026/01/22 17:34:29.990,=C:\Users\NyanRay\Documents\GitHub\VICE\Unit1.pas</Transaction>
-    <Transaction>2026/01/22 17:34:40.699,C:\Users\NyanRay\Documents\GitHub\VICE\Uvice.pas=C:\Users\NyanRay\Documents\GitHub\VICE\Unit1.pas</Transaction>
+    <Transaction>2026/01/22 17:32:16.000.659,C:\Users\NyanRay\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\NyanRay\Documents\GitHub\VICE\VICE.dproj</Transaction>
+    <Transaction>2026/01/22 17:34:29.000.990,=C:\Users\NyanRay\Documents\GitHub\VICE\Unit1.pas</Transaction>
+    <Transaction>2026/01/22 17:34:40.000.699,C:\Users\NyanRay\Documents\GitHub\VICE\Unit1.pas=C:\Users\NyanRay\Documents\GitHub\VICE\Uvice.pas</Transaction>
   </Transactions>
 </BorlandProject>
