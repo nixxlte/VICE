@@ -7,23 +7,18 @@ interface
   type
     TwindowHandle = HWND;
 
-  procedure pixel(size: integer);
+  procedure pixel();
   procedure handle();
 
 implementation
-  procedure pixel(size: integer);
+  procedure pixel();
   begin
-    if size = 1 then
-      write('u')
-    else if size = 2 then
-    begin
-      write('un')
-    end;
+    write('u');
   end;
 
   procedure handle();
   begin
-    readln;
+
   end;
 
 end.
