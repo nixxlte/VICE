@@ -22,7 +22,7 @@ implementation
     end
     else
     begin
-
+      catch('1030');
     end;
   end;
 
