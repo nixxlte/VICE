@@ -1,0 +1,45 @@
+unit vicelib;
+
+interface
+  uses
+    Windows, Messages;
+
+  type
+    TwindowHandle = HWND;
+
+  procedure pixel(size: integer);
+  procedure catch(code, fatal: integer);
+  procedure handle();
+
+implementation
+  procedure pixel(size: integer);
+  begin
+    if size = 1 then
+      write('u')
+    else if size = 2 then
+    begin
+      write('un')
+    end
+    else
+    begin
+      catch(1030, 1);
+    end;
+  end;
+
+  procedure catch(code, fatal: integer);
+  begin
+    writeln(' Oops! Theres a error... OnO');
+    write('Error code: Cx'); write(code);
+    if fatal = 1 then
+    begin
+      readln;
+      Halt;
+    end;
+  end;
+
+  procedure handle();
+  begin
+    readln;
+  end;
+
+end.

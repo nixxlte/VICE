@@ -1,10 +1,8 @@
 unit vicelib;
 
 interface
-
-uses
-    Winapi.Windows,
-    Winapi.Messages;
+  uses
+    Windows, Messages;
 
   type
     TwindowHandle = HWND;
@@ -12,10 +10,8 @@ uses
   procedure pixel(size: integer);
   procedure catch(code: integer; fatal: bool);
   procedure handle();
-  procedure window(ATitle: PChar; AWidith, AHeight: Integer);
 
 implementation
-
   procedure pixel(size: integer);
   begin
     if size = 1 then
@@ -44,28 +40,6 @@ implementation
   procedure handle();
   begin
     readln;
-  end;
-
-  function WindowProc(hWnd: HWND; Msg: UINT; wParam: WPARAM; lParam: LPARAM): LRESULT; stdcall;
-  begin
-    case Msg of
-      WM_DESTROY:
-        begin
-          PostQuitMessage(0);
-          Result := 0;
-          Exit;
-        end;
-    end;
-
-    Result := DefWindowProc(hWnd, Msg, wParam, lParam);
-  end;
-
-  procedure window(ATitle: PChar; AWidith, AHeight: Integer);
-  var
-    wc: WNDCLASSEX;
-    msg: MSG;
-  begin
-    ZeroMemory(@wc, SizeOf(wc));
   end;
 
 end.
