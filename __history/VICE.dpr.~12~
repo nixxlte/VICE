@@ -6,11 +6,15 @@ program VICE;
 
 uses
   System.SysUtils,
-  Uvice in 'Uvice.pas';
+  vicelib in 'vicelib.pas';
 
 begin
   try
     { TODO -oUser -cConsole Main : Insert code here }
+    pixel(1);
+    write(' ');
+    pixel(2);
+    handle();
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);

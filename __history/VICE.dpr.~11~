@@ -5,11 +5,16 @@ program VICE;
 {$R *.res}
 
 uses
-  System.SysUtils;
+  System.SysUtils,
+  vicelib in 'vicelib.pas';
 
 begin
   try
     { TODO -oUser -cConsole Main : Insert code here }
+    pixel(1);
+    write();
+    pixel(2);
+    handle();
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);

@@ -11,10 +11,7 @@ uses
 begin
   try
     { TODO -oUser -cConsole Main : Insert code here }
-    pixel(1);
-    write(' ');
-    pixel(2);
-    pixel(30);
+    pixel();
     handle();
   except
     on E: Exception do

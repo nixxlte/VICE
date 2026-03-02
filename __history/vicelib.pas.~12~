@@ -33,7 +33,7 @@ implementation
     if fatal = 1 then
     begin
       readln;
-      Halt;
+      exit;
     end;
   end;
 

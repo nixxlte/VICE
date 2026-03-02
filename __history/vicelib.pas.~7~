@@ -8,7 +8,7 @@ interface
     TwindowHandle = HWND;
 
   procedure pixel(size: integer);
-  procedure catch(code, fatal: integer);
+  procedure catch(code: string);
   procedure handle();
 
 implementation
@@ -22,19 +22,15 @@ implementation
     end
     else
     begin
-      catch(1030, 1);
+      catch('1030');
     end;
   end;
 
-  procedure catch(code, fatal: integer);
+  procedure catch(code: string);
   begin
-    writeln(' Oops! Theres a error... OnO');
+    write('Oops! Theres a error... OnO\n');
     write('Error code: Cx'); write(code);
-    if fatal = 1 then
-    begin
-      readln;
-      Halt;
-    end;
+    readln;
   end;
 
   procedure handle();
